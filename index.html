@@ -26,28 +26,15 @@
         </ul>
         
         <form action="https://formspree.io/f/mnndneze" method="POST">
-            <label for="projectTitle">Project Title*</label>
-            <input type="text" id="projectTitle" name="projectTitle" required>
-
-            <label for="typeOfResearch">Type of Research*</label>
-            <input type="text" id="typeOfResearch" name="typeOfResearch" required>
-
-            <label for="location">Where*</label>
-            <input type="text" id="location" name="location" required>
-
-            <label for="numStudents">How Many Students Needed*</label>
-            <input type="number" id="numStudents" name="numStudents" required>
-
-            <label for="authorship">Include Authorship*</label>
-            <select id="authorship" name="authorship" required>
-                <option value="yes">Yes</option>
-                <option value="no">No</option>
-            </select>
-
-            <label for="contactInfo">Contact Information*</label>
-            <input type="email" id="contactInfo" name="contactInfo" required>
-
-            <button type="submit">Submit</button>
+        <label>
+        Your email:
+        <input type="email" name="email">
+        </label>
+        <label>
+        Your message:
+        <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Send</button>
         </form>
     </section>
 
